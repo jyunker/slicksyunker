@@ -8,7 +8,7 @@ function CurrentlySlicing({ slicemasters }) {
   return (
     <div>
       <h2 className="center">
-        <span className="mark tilt">Slicemasters On</span>
+        <span className="mark tilt">Slicemasters Working Now!</span>
       </h2>
       <p>Standing by, ready to slice you up!</p>
       {!slicemasters && <LoadingGrid count={4} />}
